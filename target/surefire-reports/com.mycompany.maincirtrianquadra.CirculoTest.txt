@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.maincirtrianquadra.CirculoTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec <<< FAILURE!
 testRaioNegativo(com.mycompany.maincirtrianquadra.CirculoTest)  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
@@ -37,7 +37,7 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testRaioZaero(com.mycompany.maincirtrianquadra.CirculoTest)  Time elapsed: 0 sec  <<< FAILURE!
+testRaioZaero(com.mycompany.maincirtrianquadra.CirculoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

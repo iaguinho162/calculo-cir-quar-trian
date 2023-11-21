@@ -20,10 +20,14 @@ public class Circulo extends FigurasGeometricas{
         
         System.out.println("Digite o Raio");
         raio = ler.nextDouble();
-        this.area = Math.PI * Math.pow(raio,2);
-        System.out.printf("A área do Circulo é: %.3f\n", this.area);
-        perimentro = 2* Math.PI * raio;
-        System.out.printf("O perimentro do Circulo é: %.3f " , perimentro);  
+        if (raio < 0 || raio == 0) {
+            System.out.println("Raio inválido");
+        }else{
+            this.area = Math.PI * Math.pow(raio,2);
+            System.out.printf("A área do Circulo é: %.3f\n", this.area);
+            perimentro = 2* Math.PI * raio;
+        System.out.printf("O perimentro do Circulo é: %.3f " , perimentro);
+        }
         
 
         
